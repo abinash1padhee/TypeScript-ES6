@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "./ArrowFunctions/HowArrowFunctionsWork.ts",
+    "./Destructuring/DestructuringArrays.ts",
+    "./Destructuring/DestructuringObjects.ts",
+    "./Let/ForLoopClosure.ts",
+    "./Let/HowConstWorks.ts",
+    "./Let/HowLetWorks-BlockScope.ts",
+    "./Let/HowLetWorks-ForLoop.ts",
+    "./Let/HowVarWorks-Hoisting.ts",
+    "./UnicodeAndForOf/HowUnicodeAndForOfWork.ts",
+    "./helloworld.ts",
+    "./server.ts",
+    "./typings/hapi/hapi.d.ts",
+    "./typings/tsd.d.ts"
+  ],
+  "externalTranspiler": "babel"
+}
