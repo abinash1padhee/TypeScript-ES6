@@ -18,4 +18,4 @@ function mehify(...thatWhichShouldBeMeh: string[]) {
     return thatWhichShouldBeMeh;
 }
 
-//export {wowify as default, wowify, mehify};
+export {wowify as default, wowify, mehify};

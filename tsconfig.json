@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "amd",
     "target": "es5",
     "sourceMap": true
   },
@@ -8,7 +8,7 @@
     "node_modules"
   ],
   "files": [
-    "./ArrowFunctions/ArrowFunctions.ts",
+    "ArrowFunctions/ArrowFunctions.ts",
     "./Destructuring/DestructuringArrays.ts",
     "./Destructuring/DestructuringObjects.ts",
     "./Let/ForLoopClosure.ts",
@@ -19,6 +19,15 @@
     "./Modules/program.ts",
     "./Modules/programNode.ts",
     "./Modules/wowify.ts",
+    "./Public/require-config.ts",
+    "./Public/system-config.ts",
+    "server.ts",
+    "./typings/chalk/chalk.d.ts",
+    "./typings/hapi/hapi.d.ts",
+    "./typings/jquery/jquery.d.ts",
+    "./typings/requirejs/require.d.ts",
+    "./typings/systemjs/systemjs.d.ts",
+    "./typings/tsd.d.ts",
     "./UnicodeAndForOf/UnicodeAndForOf.ts",
     "./helloworld.ts",
     "./server.ts",
